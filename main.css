@@ -1,0 +1,38 @@
+body{
+	background-color:rgb(40, 40, 40);	
+}
+
+h1{
+	font-size: 60px;
+}
+
+h3{
+	font-size: 40px;
+	font-family: Brush Script MT,cursive;
+}
+
+ul{
+	color: white;
+	list-style-type: none;
+	font-size: 35px;
+}
+
+p.description{
+	font-size: 15px;
+	text-align: justify;
+}
+
+#page-heading{
+	padding: 1px 0px;
+	background-color: red;
+	background-color:rgb(200, 20, 0);
+	color: white;
+	margin: 30px 0px;
+}
+
+.img-div{
+	margin-bottom: 30px; 
+}
+
+
+
