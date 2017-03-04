@@ -5,9 +5,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid white-color">
 		<!-- Title of the page -->
 		<div class="row">
 			<div id="page-heading">
@@ -19,17 +21,25 @@
 		<!-- Picture of Obama -->
 		<div class="text-center img-div">
 			<img src="https://timeswampland.files.wordpress.com/2012/11/485_cover_1110.jpg?w=600" alt="Time magazine Obama Cover Picture">
+			<p>Picture of President Barack Obama on Time Magazine 
+			</p>
+			<button id="like-btn" class="btn btn-primary">
+				<i class="fa fa-thumbs-up" ></i> Like
+			</button>
 		</div>
 
 		<!-- List of accomplishments -->
 		<div class="list-of-top-accomplishments">
 			<ul>
 				<li>
+					<p style="font-size: 27px; padding-bottom: 20px;"><u>President Obama's Top 5 Accomplishments as mentioned by Washington Monthly</u></p>
+				</li>
+				<li>
 					<p>1. Passed Health Care Reform</p>
 					<div class="row">
 						<div class="col-xs-11 text-center">
 							<p class="description">
-								After five presidents over the course of a century failed to create universal health insurance, signed the Affordable Care Act in 2010. More than twenty million Americans have gained coverage since the passage of the law, which provides subsidies for Americans to buy coverage, expands Medicaid eligibility, and prohibits insurers from denying coverage to people with preexisting conditions. The uninsured rate has dropped from 16 percent in 2010 to 9 percent in 2015. The law also mandates free preventive care, allows young people to stay on their parents’ policies up to age twenty-six, and imposes a ban on annual and lifetime caps on benefits.
+								After five presidents over the course of a century failed to create universal health insurance, signed the Affordable Care Act in 2010. More than twenty million Americans have gained coverage since the passage of the law, which provides subsidies for Americans to buy coverage, expands Medicaid eligibility, and prohibits insurers from denying coverage to people with preexisting conditions. The uninsured rate has dropped from 16 percent in 2010 to 9 percent in 2015. The law also mandates free preventive care, allows young people to stay on their parents’ policies up to age twenty&#45;six, and imposes a ban on annual and lifetime caps on benefits.
 							</p>
 						</div>
 					</div>
@@ -39,7 +49,7 @@
 					<div class="row">
 						<div class="col-xs-11 text-center">
 							<p class="description">
-								Signed the $787 billion American Recovery and Reinvestment Act in 2009 to spur economic growth amid the most severe downturn since the Great Depression. As of October 2016, the economy had added 15.5 million new jobs since early 2010 and set a record with seventy-three straight months of private-sector job growth. The unemployment rate, which hit a sustained peak of about 10 percent in 2009, has dropped to 4.6 percent as of November 2016.
+								Signed the $787 billion American Recovery and Reinvestment Act in 2009 to spur economic growth amid the most severe downturn since the Great Depression. As of October 2016, the economy had added 15.5 million new jobs since early 2010 and set a record with seventy&#45;three straight months of private&#45;sector job growth. The unemployment rate, which hit a sustained peak of about 10 percent in 2009, has dropped to 4.6 percent as of November 2016.
 							</p>
 						</div>
 					</div>
@@ -49,7 +59,7 @@
 					<div class="row">
 						<div class="col-xs-11 text-center">
 							<p class="description">
-								Signed the Dodd-Frank Wall Street Reform and Consumer Protection Act in 2010 to re-regulate the financial sector after its practices caused the Great Recession. The law tightens capital requirements on large banks and other financial institutions, allows the government to take them into receivership if they pose a threat to the economy, and limits their ability to trade with customers’ money for their own profit. Dodd-Frank also created the Consumer Financial Protection Bureau to crack down on abusive lending and financial services. By the end of fiscal year 2016, the CFPB had handled nearly one million consumer complaints and taken actions that resulted in $11.7 billion in relief for more than twenty-seven million consumers.
+								Signed the Dodd-Frank Wall Street Reform and Consumer Protection Act in 2010 to re&#45;regulate the financial sector after its practices caused the Great Recession. The law tightens capital requirements on large banks and other financial institutions, allows the government to take them into receivership if they pose a threat to the economy, and limits their ability to trade with customers’ money for their own profit. Dodd&#45;Frank also created the Consumer Financial Protection Bureau to crack down on abusive lending and financial services. By the end of fiscal year 2016, the CFPB had handled nearly one million consumer complaints and taken actions that resulted in $11.7 billion in relief for more than twenty-seven million consumers.
 							</p>
 						</div>
 					</div>
@@ -59,7 +69,7 @@
 					<div class="row">
 						<div class="col-xs-11 text-center">
 							<p class="description">
-								Led six nations in reaching an agreement with Iran that requires the country to end its nuclear weapons program and submit to a rigorous International Atomic Energy Agency inspections regime in exchange for lifting global sanctions. The deal—which resulted from first toughening sanctions against Iran—also blocked Iran’s pathways to building a bomb, slowing down the development time for a weapon from three months to one year if Iran were to break its commitments.
+								Led six nations in reaching an agreement with Iran that requires the country to end its nuclear weapons program and submit to a rigorous International Atomic Energy Agency inspections regime in exchange for lifting global sanctions. The deal&#45;which resulted from first toughening sanctions against Iran&#45;also blocked Iran’s pathways to building a bomb, slowing down the development time for a weapon from three months to one year if Iran were to break its commitments.
 							</p>
 						</div>
 					</div>
@@ -74,10 +84,31 @@
 						</div>
 					</div>
 				</li>
-			</ul>
-		</div>
+			</ul>			
+			<!-- Obama quote -->
+			<div class="row">
+				<div class="col-xs-11 text-center" style="padding-left: 90px;">
+					<div class="well quote">
+					<p style="font-size: 26px;">
+						</br><b><i>Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.</i></b>
+					</p>
+					<p class="text-right" style="font-size: 16px;">
+						- President Obama
+					</p>
+					</div>
+				</div>
+			</div>
 
-		<!-- Link to the full list at http://washingtonmonthly.com/magazine/januaryfebruary-2017/obamas-top-50-accomplishments-revisited/ -->
+			<div class="row">
+				<div class="col-xs-12 text-center" style="padding-left: 70px; padding-right: 50px; margin-bottom: 80px;">
+				</br>
+					<p class="external-link description" style=" font-size: 17px;"><u>This list mentions just 5 of president Barack Obama's accomplishments! If you want to read the full list, you can find it
+						<a style="font-size: 25px;" href="http://washingtonmonthly.com/magazine/januaryfebruary-2017/obamas-top-50-accomplishments-revisited/" target="_blank">HERE</a></u>
+					</p>
+				</div>
+			</div>
+
+		</div>
 	</div>
 </body>
 </html>

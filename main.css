@@ -12,9 +12,13 @@ h3{
 }
 
 ul{
-	color: white;
 	list-style-type: none;
 	font-size: 35px;
+}
+
+.white-color{
+	background-color:rgb(240, 240, 240);
+	margin: 0px 70px;
 }
 
 p.description{
@@ -22,6 +26,10 @@ p.description{
 	text-align: justify;
 }
 
+.quote{
+	background-color:rgb(70, 70, 70);
+	color: white;
+}
 #page-heading{
 	padding: 1px 0px;
 	background-color: red;
@@ -33,6 +41,13 @@ p.description{
 .img-div{
 	margin-bottom: 30px; 
 }
+
+p.external-link{
+
+}
+
+
+
 
 
 
